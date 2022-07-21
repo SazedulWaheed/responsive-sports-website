@@ -16,9 +16,7 @@ main{
     height: 646px;
     margin-bottom: 100px;
 }
-button{
-    background-color: #DD0000;
-}
+
 
 /*---- Top Banners Styles ---*/
 .top-banner{
@@ -45,13 +43,48 @@ button{
     width: 187px;
     height: 56px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
+    background-color: #DD0000;
 }
 .banner-image img{
     width: 100%;
+}
+
+/*--- middle section styles ---*/
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*---- side-bar styles ----*/
+.side-bar{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.side-bar-button button{
+    width: 252px;
+    height: 64px;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+#selected-button{
+    background-color: #DD0000;
+    color: #ffffff;
 }
 
 /*---- Blogs section styles ----*/
@@ -59,11 +92,13 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 25px;
+    grid-column-gap: 20px;
 }
 .blog{
     width: 312px;
     height: 362px;
     border: 1px solid #cdcdcd;
+    border-radius: 10px;
 }
 .blog-info{
     padding-top: 0;
