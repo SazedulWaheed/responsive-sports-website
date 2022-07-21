@@ -231,6 +231,7 @@ main{
  ------------------*/
 
  /*---- mobile devices -----*/
+ 
  @media only screen and (max-width:688px) {
     body{
         display: grid;
@@ -288,7 +289,8 @@ main{
     }
 }
 
- /* tablet devices */
+ /*----- tablet devices -----*/
+ 
  @media screen and (min-width:689px) and (max-width:992px) {
     
     .container{
