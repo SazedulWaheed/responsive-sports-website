@@ -31,6 +31,9 @@ main{
     padding: 33px 80px 0 100px;
     border-radius: 30px;
 }
+.banner-image img{
+    width: 100%;
+}
 .banner-info{
     color: #ffffff;
     margin-right: 25px;
@@ -50,9 +53,6 @@ main{
     font-weight: 400;
     font-size: 20px;
     background-color: #DD0000;
-}
-.banner-image img{
-    width: 100%;
 }
 
 /*--- middle section styles ---*/
@@ -83,6 +83,10 @@ main{
     font-size: 20px;
     border-radius: 10px;
     border: none;
+}
+.side-bar-button a{
+    text-decoration: none;
+    color: #161616;
 }
 #selected-button{
     background-color: #DD0000;
